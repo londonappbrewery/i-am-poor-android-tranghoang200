@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@color/colorAccent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -16,18 +16,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="240dp"
         android:text="@string/title"
-        android:textColor="@android:color/black"
-        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="45sp"
         android:textStyle="bold"
         tools:text="@string/title" />
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_width="390dp"
+        android:layout_height="415dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/coal" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        app:srcCompat="@drawable/coal" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:text="@string/emphasis"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:text="@string/emphasis" />
 </RelativeLayout>
